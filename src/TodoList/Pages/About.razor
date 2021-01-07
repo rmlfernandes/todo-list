@@ -1,0 +1,10 @@
+﻿@page "/about"
+
+<h3>About</h3>
+Rui Fernandes
+<br />
+@currentTime.DayOfWeek.ToString(), @currentTime
+
+@code {
+    private DateTime currentTime = DateTime.UtcNow;
+}
